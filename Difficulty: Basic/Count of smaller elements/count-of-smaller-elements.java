@@ -10,7 +10,7 @@ import java.util.*;
 class Solution {
     public int countOfElements(int x, List<Integer> arr) {
         int count = 0;
-        for(int i=0;i<arr.size();i++) {  //arr size =
+        for(int i=0;i<arr.size();i++) { 
             if(x>=arr.get(i)) {           
                count++;                   
                 
